@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora online</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Calculadora de área y perímetro de un rectángulo</h1>
+    <div id="contenedor">
+        <h3>Ingrese la base del rectángulo</h3>
+            <input type="number" id="base" class="rect-base">
+            <h3>Ingrese la altura del rectángulo</h3>
+            <input type="number" id="altura" class="rect-altura">
+            <h3>El área del rectángulo es:</h3>
+            <input type="number" id="area" class="area">
+            <h3>El perímetro del rectángulo es:</h3>
+            <input type="number" id="perimetro" class="perimetro">
+            <button type="button" id="limpiar" onclick="multiplicar()">CALCULAR</button>
+    </div>
+    <script src="js/index.js"></script>
+    </body>
+
+</html>
