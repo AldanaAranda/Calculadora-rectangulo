@@ -27,7 +27,7 @@ h3{
     text-align: center;
     border: 1px solid #a29cd8;
     border-radius: 10px;
-    box-shadow:inset 0 0 20px #2a263a;
+    box-shadow:inset 0 0 15px #2a263a;
 }
 
 input{
@@ -57,4 +57,12 @@ button:hover{
 
 button:active{
     background-color: rgba(100, 85, 156, 0.79);
+}
+
+@media (max-width: 767px) {
+    #contenedor{
+        width: 80%;
+        padding: 20px;
+    }
+
 }
